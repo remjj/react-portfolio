@@ -1,0 +1,119 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 80px 170px;
+}
+
+.about-title {
+    position: relative;
+}
+
+.about-title h1 {
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.about-sections {
+    display: flex;
+    gap: 60px;
+    width: 100%;
+}
+
+.about-left {
+    flex: 1;
+}
+
+.about-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.about-para {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.about-skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.about-skill p {
+    margin: 0;
+    flex: 1;
+}
+
+.about-skill hr {
+    margin-left: 20px;
+    flex: 2;
+    border: none;
+    width: 50%;
+    height: 10px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #ffffff 10%, #3e6975 100%);
+}
+
+.about-achievements {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.about-achievement {
+    flex: 1;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    background: none;
+}
+
+.about-achievement h1, .about-achievement p {
+    margin: 0;
+    background: linear-gradient(to right, #ffffff, #3e6975);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+}
+
+.about-achievement p {
+    font-size: 24px;
+}
+
+.about-achievement hr {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, #ffffff 10%, #3e6975 100%);
+    border: none;
+}

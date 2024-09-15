@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(26, 43, 62);
+    color: white;
+    font-family: Poppins;
+}
+
+.img{
+    display: flex;
+    width: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+
+
+.navMenu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 17px;
+}
+
+.nav-connect{
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
